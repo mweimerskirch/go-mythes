@@ -11,7 +11,7 @@ Import the wrapper in your go application:
 
 <pre>
 import (
-    mythes "github.com/spellchecker-lu/go-mythes"
+    "github.com/spellchecker-lu/go-mythes"
 )
 </pre>
 

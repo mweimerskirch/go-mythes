@@ -1,4 +1,4 @@
-package go_mythes
+package mythes
 
 // #cgo linux LDFLAGS: -lmythes-1.2
 //
