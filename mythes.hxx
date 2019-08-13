@@ -5,6 +5,13 @@
 
 class MyThes
 {
+    int nw;
+    char** list;
+    unsigned int* offst;
+    char* encoding;
+
+    FILE  *pdfile;
+
 	MyThes();
 	MyThes(const MyThes &);
 	MyThes & operator = (const MyThes &);
