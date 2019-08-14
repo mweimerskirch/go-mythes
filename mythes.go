@@ -51,6 +51,7 @@ func (handle *MyThesHandle) Lookup(word string) []Synset {
 	defer C.free(unsafe.Pointer(word_c))
 
 	var pMeaning *C.struct_mentry
+	defer C.free(unsafe.Pointer(pMeaning))
 
 	pOriginal := pMeaning
 

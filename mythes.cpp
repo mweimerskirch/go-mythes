@@ -35,9 +35,8 @@ void MyThes_CleanUpAfterLookup(MyThes* self, mentry** pme, int len){
 
 // Method that increments the pointer (easier to to in C than in Go)
 mentry * MyThes_Next(MyThes* self, mentry* pMeaning){
-    mentry* pm = pMeaning;
-    pm++;
-    return pm;
+    pMeaning++;
+    return pMeaning;
 }
 
 #ifdef __cplusplus
